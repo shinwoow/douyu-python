@@ -11,10 +11,10 @@
 ### 库
 
 ```
-# requests			获取网页
-# re				正则匹配出符合要求的元素节点
-# Beautiful Soup	格式化网页代码，find需要的节点
-# xlwt				创建Excel文件
+# requests			    获取网页
+# re				        正则匹配出符合要求的元素节点
+# Beautiful Soup	  格式化网页代码，find需要的节点
+# xlwt				      创建Excel文件
 ```
 
 ### 运行
