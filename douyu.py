@@ -9,13 +9,15 @@ import xlwt
 #爬取地址
 url = "https://www.douyu.com/directory/all"
 
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"}
+
 p = 0
 
 s ='python'
 result = []
 
 
-r = requests.get(url)
+r = requests.get(url, headers = headers)
 r.encoding ='utf-8'
 so_url = r.request.url
 html = r.text
